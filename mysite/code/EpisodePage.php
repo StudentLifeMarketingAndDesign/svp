@@ -67,8 +67,8 @@ class EpisodePage extends Page {
 			return new DataObjectSet();
 		}
 		$Parent = $this->getParent();
-		$Airdate = date("Y-m-d",$this->Airdate);
-		$Airdate = mysql_real_escape_string($this->Airdate);#Airdate < $this->Airdate
+		$Airdate = date("Y-m-d",strtotime($this->Airdate));
+		$Airdate = mysql_real_escape_string(strtotime($this->Airdate));#Airdate < $this->Airdate
 		return DataObject::get("EpisodePage", "ParentID = $Parent->ID AND Airdate < '$Airdate'", "Airdate DESC", Null, $amt);
 	}
 	function ThisEpisode() {
@@ -82,8 +82,8 @@ class EpisodePage extends Page {
 			return new DataObjectSet();
 		}
 		$Parent = $this->getParent();
-		$Airdate = date("Y-m-d",$this->Airdate);
-		$Airdate = mysql_real_escape_string($this->Airdate);
+		$Airdate = date("Y-m-d", strtotime($this->Airdate));
+		$Airdate = mysql_real_escape_string(strtotime($this->Airdate));
 		return DataObject::get("EpisodePage", "ParentID = $Parent->ID AND Airdate >= '$Airdate'", "Airdate ASC", Null, $amt);
 	}
 	function NextEpisode() {
@@ -91,8 +91,8 @@ class EpisodePage extends Page {
 			return new DataObjectSet();
 		}
 		$Parent = $this->getParent();
-		$Airdate = date("Y-m-d",$this->Airdate);
-		$Airdate = mysql_real_escape_string($this->Airdate);
+		$Airdate = date("Y-m-d",strtotime($this->Airdate));
+		$Airdate = mysql_real_escape_string(strtotime($this->Airdate));
 		return DataObject::get("EpisodePage", "ParentID = $Parent->ID AND Airdate >= '$Airdate'", "Airdate ASC", Null, "1,1");
 	}
 	function ShownEpisodes() {

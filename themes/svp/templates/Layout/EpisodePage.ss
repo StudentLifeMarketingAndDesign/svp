@@ -18,7 +18,7 @@
 </div>
 <style type="text/css">
 #eplist {
-  text-align: center;
+  ;
   margin: 0px auto;
 }
 #eplist ul {
@@ -63,11 +63,9 @@
 <div id="breadcrumbs">
 <a href="/">Home</a> > <% control Parent %><a href="$Link">$Title</a><% end_control %> > <a href="$Link">$Title</a>
 </div>
-<h1 id="page-image">
-$Title
-<!-- Parent.title -->
-</h1>
 
+<div class="container">
+<h2>$Title</h2>
 <!-- take from lecture, function currentEpisode -->
 <!-- also function nextEpisodes -->
  <div id="content-wrapper2">
@@ -102,6 +100,7 @@ $Title
   </div>
   
   
+</div>
 </div>
 </div>
 <!--</div>

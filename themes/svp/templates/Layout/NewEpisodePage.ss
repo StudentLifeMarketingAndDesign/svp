@@ -18,7 +18,7 @@
 </div>
 <style type="text/css">
 #eplist {
-  text-align: center;
+  ;
   margin: 0px auto;
 }
 #eplist ul {
