@@ -1,0 +1,415 @@
+ @charset "UTF-8";
+/* CSS Document */
+
+body {
+      background: #000;
+      font-family : Arial Rounded MT Bold, Helvetica, sans-serif;
+      color : #fff;
+	  margin: 0px auto 0px auto;
+	  font-size: 14px;
+	  height: 100%;
+      }
+ 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Rockwell, Helvetica, Arial, sans-serif;
+	margin: 0px;
+}
+a {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	background: #666;
+}
+ul.dropdown li a:link, a:visited, a:active { color: #FFF;text-decoration: none; }
+ul.dropdown li a:hover { color: #000;text-decoration: none; }
+
+#footer A:link {text-decoration: none; font: bold 14px Arial; color: #666; }
+#footer A:visited {text-decoration: none; color: #666; font: bold 14px Arial; }
+#footer A:active {text-decoration: none; color: #666; font: bold 14px Arial; }
+#footer A:hover {background-color: #f9d837; color: #666; border-color: #f9d837; } 
+#content-wrapper2 A:link {text-decoration: none; font: bold 14px Arial; color: #666; }
+#content-wrapper2 A:visited {text-decoration: none; color: #666; font: bold 14px Arial; }
+#content-wrapper2 A:active {text-decoration: none; color: #666; font: bold 14px Arial; }
+#content-wrapper2 A:hover {background-color: #f9d837; color: #666; border-color: #f9d837; } 
+#maintext2 A:link {text-decoration: none; font: bold 14px Arial; color: #666; }
+#maintext2 A:visited {text-decoration: none; color: 666; font: bold 14px Arial; }
+#maintext2 A:active {text-decoration: none; color: #666; font: bold 14px Arial; }
+#maintext2 A:hover {background-color: #666; color: #FFF; border-color: #666; } 
+
+#header {
+	height: 100%;
+	 margin: 0px auto 0px auto;
+	 margin-top: 10px;
+	}
+#nav {
+	z-index: 100;
+}
+#navigation {
+	margin-bottom: 10px;
+	 margin: 0px auto 0px auto;
+	 
+	 width: 980px;
+}
+#svplogo {
+	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 160px;
+}
+#uilogo {
+	float: right;
+	margin: 10px 10px 5px 0px;
+	width: 200px;
+}
+#links {
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 595px;
+}
+#contact {
+	color: #FFF;
+	font-size: 12px;
+}
+#recentepisodes {
+	text-align: center;
+}
+#recentepisodes h2 {
+	margin-bottom: 5px;
+}
+
+#video-container {
+margin: 0px auto 0px auto;
+border-bottom: 2px solid gold;
+background: url(../images/texturebg3.png) repeat-x;
+background-size: 100%;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
+#video_center {
+	margin: 0px auto;
+	text-align: center;
+	width: 800px;
+}
+#coin_center {
+	margin: 0px auto;
+	text-align: center;
+	width: 600px;
+}
+#page-image{
+font-family: Rockwell, Helvetica, Arial, sans-serif;
+font-size: 60px;
+font-weight: normal;
+height: 60px;
+margin: 0px auto 0px auto;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: left;
+width: 980px;
+}
+
+#content-wrapper{
+  float: left;
+
+   margin: 0px auto 0px auto;
+}
+
+#content-wrapper2{
+  width: 980px;
+
+   margin: 0px auto 0px auto;
+min-height: 100%;
+  font-family : Helvetica, Arial, sans-serif;
+      color : #fff;
+	  font-size: 14px;
+
+
+}
+
+#maintext{
+width: 550px;
+
+}
+
+#maintext2{
+width: 550px;
+padding-bottom: 20px;
+line-height: 1.5em;
+}
+
+#page-sidebar {
+  float: left;
+  margin-left: 110px;
+  text-align: left;
+  width: 300px;
+}
+#sidebar_links ul {
+	margin: 0px 0px 5px 30px;
+	padding: 0px;
+	list-style-type: none;
+}
+#sidebar_links ul ul {
+	margin: 0px 0px 10px 15px;
+}
+#sidebar_links ul ul li {
+	margin: 2px 0px 0px 0px;
+}
+#page_social_links {
+	text-align: center;
+}
+.blog_title {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 5px 0px 1px 0px;
+}
+.blog_date {
+	font-size: 10px;
+	margin: 0px 0px 6px 0px;
+}
+.blog_text {
+	font-size: 12px;
+	margin: 0px 0px 3px 0px;
+}
+.blog_text a {
+	font-size: 12px !important;
+}
+#homeblog .blog_title {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 5px 0px 1px 0px;
+}
+#homeblog .blog_date {
+	font-size: 0.8em;
+	margin: 0px 0px 6px 0px;
+}
+#homeblog .blog_text {
+	font-size: 1em;
+	margin: 0px 0px 3px 0px;
+}
+#homeblog .blog_text a {
+	font-size: 1em !important;
+}
+.call_goldline {
+	width: 300px; border-top: 2px solid gold; margin: 0px 0px 8px 0px;
+}
+#social_links {
+	float: right;
+}
+#social_links_inner {
+}
+#episode-sidebar{
+float: left;
+margin-left: 110px;
+text-align: center;
+width: 300px; /*Width of right column*/
+/*margin-left: -300px; /*Set left margin to -(RightColumnWidth) */
+}
+.fix1 {
+  width: 1px; height: 1px;
+}
+.clear_left {
+  clear: left;
+}
+body,html {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #333;
+  text-align: center;
+}
+#mainwrap {
+  background: #000;
+}
+#footer_shows {
+  float: left;
+  width: 600px;
+}
+#footer_archives {
+  float: left;
+  width: 170px;
+}
+#footer_logos {
+  float: left;
+  text-align: right;
+  width: 200px;
+}
+#footer_shows ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#footer_shows li {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 180px;
+}
+#footer h3 {
+  margin-top: 20px;
+}
+#header {
+  text-align: left;
+}
+#main_content {
+  border-top: 2px solid #FFD700;
+  min-height: 300px;
+  text-align: left;
+}
+#footer{
+  clear: both;
+  height: auto;
+  margin: 0px auto;
+  text-align: left;
+  width: 980px;
+}
+
+#footer-links{
+	height: 85px;
+}
+
+.clear {
+  clear: both;
+}
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+.innertube2{
+padding-bottom: 300px;
+}
+
+#episode-box {
+/*-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1px solid #f9d837;*/
+width: 980px;
+height: auto;
+margin: 0px auto 0px auto;
+} 
+
+/*list item grid*/
+
+div#block {
+	width: 980px;	
+	height: auto;
+	margin: 0px auto 0px auto;
+}
+
+div#block ul {
+	list-style-type: none;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+div#block li{
+	list-style: none;
+	float:left;
+	height: 250px;
+	margin: 10px 0px 10px 20px;
+	padding: 0px;
+}
+#episodes .title {
+  line-height: 20px;
+}
+#episodes .airdate {
+  font-size: 11px;
+}
+#episodes .season {
+  font-size: 11px;
+}
+#episodes .episodenumber {
+  font-size: 11px;
+  line-height: 15px;
+}
+#episodes .description {
+  font-style: italic;
+  font-size: 12px;
+}
+.episodebox {
+  background: #333;
+  border: 1px solid;
+  height: 169px;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  width: 300px;
+}
+.fix {
+  height: 1px;
+}
+.episodebox_emptyinner {
+  margin: 60px 0px 0px 0px;
+}
+.episodebox_inner {
+  background: #333;
+  height: 35px;
+  margin: 115px 0px 0px 0px;
+}
+#episode-sidebar a {
+  color: #FFF;
+  text-decoration: none;
+}
+#episodes a {
+  color: #FFF;
+  text-decoration: none;
+}
+#members .member {
+	float: left;
+	font-size: 13px;
+	height: 120px;
+	width: 250px;
+}
+#members .memberimage {
+	border: 1px solid;
+	float: left;
+	height: 120px;
+	width: 100px;
+}
+#members .memberinfo {
+	float: left;
+	margin-left: 10px;
+}
+#all_episodes {
+  margin: 0px auto;
+  width: 980px;
+}
+#all_episodes .one_episode {
+  float: left;
+  margin: 20px 10px 20px 0px;
+  overflow: hidden;
+  width: 230px;
+}
+#all_episodes .one_thumb {
+  height: 150px;
+  overflow: hidden;
+}
+#all_episodes .airdate {
+  font-size: 11px;
+}
+#all_episodes .episodenumber {
+  font-size: 11px;
+}
+#all_episodes .season {
+  font-size: 11px;
+}
+#staff {
+  float: left;
+  width: 550px;
+}
+#staff .member {
+  float: left;
+  margin: 10px 0px;
+  width: 175px;
+}
+span.current {
+  color: #000; background: #333; padding: 1px;
+}
+.episodebox {
+  height: 169px;
+  overflow: hidden;
+  width: 300px;
+}
