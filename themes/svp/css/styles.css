@@ -189,10 +189,15 @@ ul.dropdown ul ul {
 #maintext2 A:active {text-decoration: none; color: #666; font: bold 14px Arial; }
 #maintext2 A:hover {background-color: #666; color: #FFF; border-color: #666; } 
 
+.borderbottom {
+	border-bottom: 2px solid #F04C47;
+}
+
 #header {
 	height: 100%;
-  margin: 5px auto;
-	}
+	margin: 5px auto;
+	padding: 9px 48px 5px 33px;
+}
 #nav {
 	z-index: 100;
 }
@@ -233,7 +238,7 @@ ul.dropdown ul ul {
 #video-container {
 margin: 0px auto 20px auto;
 border-bottom: 2px solid #F04C47;
-border-top: 2px solid #F04C47;
+
 background-color: #333;
 background-size: 100%;
 width: 100%;
@@ -289,13 +294,10 @@ line-height: 1.5em;
   width: 300px;
 }
 #sidebar_links ul {
-	margin: 0px 0px 5px 30px;
 	padding: 0px;
 	list-style-type: none;
 }
-#sidebar_links ul ul {
-	margin: 0px 0px 10px 15px;
-}
+
 #sidebar_links ul ul li {
 	margin: 2px 0px 0px 0px;
 }
@@ -334,7 +336,7 @@ line-height: 1.5em;
 	font-size: 1em !important;
 }
 .call_goldline {
-	width: 300px; border-top: 2px solid gold; margin: 0px 0px 8px 0px;
+	width: 300px; border-top: 2px solid #F04C47; margin: 0px 0px 8px 0px;
 }
 #social_links {
 	float: right;
@@ -407,12 +409,21 @@ body,html {
 	height: 85px;
 }
 
+#footer_logos p {
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 3px; 
+}
+
+.svpLogo {
+	width: 165px; 
+}
+
 .clear {
   clear: both;
 }
 .innertube{
-margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
-margin-top: 0;
+	margin: 10px 10px 10px 0px;
 }
 
 .innertube2{
@@ -542,7 +553,7 @@ div#block li{
   width: 175px;
 }
 span.current {
-  color: #000; background: #333; padding: 1px;
+  color: #000; background: #eee; padding: 1px;
 }
 .episodebox {
   height: 169px;

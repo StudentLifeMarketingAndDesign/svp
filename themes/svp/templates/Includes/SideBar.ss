@@ -23,13 +23,7 @@
 </div>
 
 <div class="call_goldline"></div>
-<h2>From The Blog</h2>
-<% control RssBlogPosts(1,http://blog.studentlife.uiowa.edu/svp/feed/) %>
-<div class="blog_title"><strong><a href="$Link">$Title</a></strong></div>
-<div class="blog_date">$Date.format(m)/$Date.format(d)/$Date.format(Y)</div>
-<div class="blog_text">$Description <a href="$Link">Read more</a></div>
-<% end_control %>
-<br /><br />
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FUISVP&amp;width=550px&amp;height=558&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=242901859120617" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:558px;" allowTransparency="true"></iframe>
 
 <h2>Stay Connected!</h2><br />
 <a href="http://www.facebook.com/pages/Student-Video-Productions/70726581690?ref=ts"><img src="$ThemeDir/images/social-media/Facebook.png" border="0" alt="facebook"/></a> 

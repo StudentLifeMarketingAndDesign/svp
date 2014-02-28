@@ -58,7 +58,7 @@
 			<div id="episode-sidebar">
 				<div id="recentepisodes">
 					<% if LatestEpisode %>
-					<h2>Latest Episode</h2>
+					<h1>Latest Episode</h1>
 					<% control LatestEpisode %>
 					<div>
 						<% include VideoBox %>

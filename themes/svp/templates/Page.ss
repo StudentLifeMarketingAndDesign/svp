@@ -16,14 +16,14 @@
     <% include DivisionBar %>
     
       <div class="fix1"></div>
-
-      <header id="header" class="container">
-        <nav id="navigation">
-          <div id="svplogo">
-            <a href="{$BaseHref}"><img src="$ThemeDir/images/svplogo.png" alt="Student Video Productions" border="0" /></a>
-          </div>
-          <div id="links">
-            <ul id="nav" class="dropdown dropdown-linear dropdown-columnar">
+	  <div class = "borderbottom">
+	      <header id="header" class="container">
+	        <nav id="navigation">
+	          <div id="svplogo">
+	            <a href="{$BaseHref}"><img src="$ThemeDir/images/svplogo.png" alt="Student Video Productions" border="0" /></a>
+	          </div>
+	          <div id="links">
+	            <ul id="nav" class="dropdown dropdown-linear dropdown-columnar">
               <% control Menu(1) %>
               <% if Children %>
               <li class="dir">$Title
@@ -49,7 +49,7 @@
             </nav>
           </header><!-- end header -->
 
-
+	 </div> 
             <div id="main_content">
               $Layout
               <div id="form" style="width: 300px; margin: 0px auto;">
@@ -74,7 +74,10 @@
               <% end_control %>
             </div>
             <div id="footer_logos">
-              <img src="$ThemeDir/images/logo_tagline.png" alt="UI SVP" />
+              <img src="$ThemeDir/images/svp-nice.png" alt="UI SVP" class= "svpLogo" />
+              <p> 8PM Sundays on UITV </p>
+              <p> Dorms ch. 4 </p>
+              <p> Mediacom ch. 17 </p>
               <p><a href="http://www.facebook.com/pages/Student-Video-Productions/70726581690?ref=ts"><img src="$ThemeDir/images/facebook.png" border="0" alt="Facebook" /></a> <a href="http://www.youtube.com/user/UISVP"><img src="$ThemeDir/images/youtube.png" border="0" alt="YouTube" /></a></p>
             </div>
             <div class="clear"></div>

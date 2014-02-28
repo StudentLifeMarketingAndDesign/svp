@@ -65,42 +65,41 @@
 </div>
 
 <div class="container">
-<h2>$Title</h2>
+
 <!-- take from lecture, function currentEpisode -->
 <!-- also function nextEpisodes -->
  <div id="content-wrapper2">
- <div id="content-wrapper">
-  <div id="maintext">
-  <div class="innertube">
-    
-  <h2><% control Parent %>$Title<% end_control %><% if Ep %>: Episode #$Ep<% end_if %> <% control Parent %><a href="$Link">[return to show]</a><% end_control %></h2>
-  <br />
-  
-  <% if Producer %>
-  <h3>Produced by: $Producer</h3>
-  <% end_if %>
-  <% if Airdate %><small>$Airdate.format(F j), $Airdate.format(Y)</small><% end_if %>
-  
-  $Content
-  
-  <br />
-  <br />
-  <!-- AddThis Button BEGIN -->
-  <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-  <a class="addthis_button_preferred_1"></a>
-  <a class="addthis_button_preferred_2"></a>
-  <a class="addthis_button_preferred_3"></a>
-  <a class="addthis_button_preferred_4"></a>
-  <a class="addthis_button_compact"></a>
-  </div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d4c844259a011e7"></script>
-  <!-- AddThis Button END -->
-  
-  
-  </div>
-  
-  
-</div>
+	 <div id="content-wrapper">
+		  <div id="maintext">
+			  <div class="innertube">
+			  <h2>$Title</h2>
+			  <h2><% control Parent %>$Title<% end_control %><% if Ep %>: Episode #$Ep<% end_if %> <% control Parent %><a href="$Link">[return to show]</a><% end_control %></h2>
+			  <br />
+			  
+			  <% if Producer %>
+			  <h3>Produced by: $Producer</h3>
+			  <% end_if %>
+			  <% if Airdate %><small>$Airdate.format(F j), $Airdate.format(Y)</small><% end_if %>
+			  
+			  $Content
+			  
+			
+			  <!-- AddThis Button BEGIN -->
+			  <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+			  <a class="addthis_button_preferred_1"></a>
+			  <a class="addthis_button_preferred_2"></a>
+			  <a class="addthis_button_preferred_3"></a>
+			  <a class="addthis_button_preferred_4"></a>
+			  <a class="addthis_button_compact"></a>
+			  </div>
+		  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d4c844259a011e7"></script>
+		  <!-- AddThis Button END -->
+		  
+		  
+		  </div>
+	  
+	  
+	</div>
 </div>
 </div>
 <!--</div>
