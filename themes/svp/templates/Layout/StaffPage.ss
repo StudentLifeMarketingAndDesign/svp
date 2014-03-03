@@ -1,3 +1,4 @@
+<div class = "container">
 <h1 id="page-image">
 $Title
 </h1>
@@ -24,4 +25,5 @@ $Title
 <!--sidebar-->
 <% include SideBar %>
 
+</div>
 </div>
