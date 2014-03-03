@@ -7,6 +7,7 @@
 				<!--img src="$ThumbURL" border="0" style="padding-bottom: 10px;" width="300" height="169" alt="$Title" /-->
 				<% end_if %>
 			  </a>
+
 			</div>
 		  <% else %>
 		    <div class="episodebox">
@@ -21,3 +22,5 @@
 			  </div>
 			</div>
 		  <% end_if %>
+		  <h3><a href="$Link">$Title</a></h3>
+		  <hr/>
