@@ -1,3 +1,4 @@
+<div class="container">
 <div id="page-image">
 $Title
 </div>
@@ -35,3 +36,4 @@ $Content
 
 
 </div>--></div>
+</div>
