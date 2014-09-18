@@ -34,7 +34,7 @@ module.exports = function(grunt) {
           'division-bar/js/division-bar.js',
           '<%=globalConfig.themeDir %>/javascript/*.js'
         ],
-        dest: '<%=globalConfig.themeDir %>/build.src.js'
+        dest: '<%=globalConfig.themeDir %>/build/build.src.js'
       }
     },
 
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target:{
         files:{
-        '<%=globalConfig.themeDir %>/build/build.js': ['<%=globalConfig.themeDir %>/build.src.js'],
+        '<%=globalConfig.themeDir %>/build/build.js': ['<%=globalConfig.themeDir %>/build/build.src.js'],
         }
       }
     },
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  //grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
