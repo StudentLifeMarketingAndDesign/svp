@@ -1,0 +1,12 @@
+.HomePage .main-nav {
+	margin-top: 2em;
+}
+
+.main-nav {
+	@media #{$large-up} {
+		margin: 0.5em 0 .5em;
+	}
+	@media #{$xlarge-up} {
+
+	}
+}
