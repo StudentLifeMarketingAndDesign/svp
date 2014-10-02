@@ -16,7 +16,6 @@ module.exports = function(grunt) {
         },                  // Target
         options: {              // Target options
           style: 'compressed',
-          sourcemap: 'true',
           loadPath: [
           'cfo-project/bower_components/foundation/scss'
           ]
@@ -51,7 +50,7 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js'],
+        files: ['<%=globalConfig.themeDir %>/javascript/*.js', '<%=globalConfig.themeDir %>/js/**/*.js'],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: true,
