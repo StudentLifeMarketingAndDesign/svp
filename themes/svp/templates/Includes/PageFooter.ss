@@ -1,22 +1,6 @@
 <div class="social-blog">
 	<div class="row collapse">
-		<div class="large-3 large-push-9 columns">
-			<div class="row">
-				<% with Page("bijou-blog") %>
-					<% loop $Entries('1') %>
-						<div class="large-6 columns">
-							<div class="blogsnippit">
-								<h5 class="intro">From the Blog</h5>
-								<h3 class="title"><a href="$Link">$Title</a></h3>
-								<p>$Content.LimitCharacters(180)</p>
-								<a href="$Link" class="anchor">read more</a>
-							</div>
-						</div>
-					<% end_loop %>
-				<% end_with %>
-			</div>
-		</div>
-		<div class="large-9 large-pull-3 columns white">
+		<div class="large-12 columns">
 			<div id="fb-root"></div>
 			<script>(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];

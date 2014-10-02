@@ -1,9 +1,11 @@
 body {
-	background: #fff;
+	background: #4561a1 url(../images/diamonds.png);;
 }
 .header {
-	background: #4a68ad url(../images/whitetop.gif) repeat-x 0 0;
 	margin-top: 0;
+}
+.HomePage .header {
+	background: url(../images/whitetop.gif) repeat-x 0 0;
 }
 .HomePage .main-nav a {
 	color: #333;
