@@ -1,11 +1,12 @@
 body {
-	background: #4561a1 url(../images/diamonds.png);;
+	background: #fff;
 }
 .header {
+	background: #4561a1 url(../images/diamonds.png);
 	margin-top: 0;
 }
 .HomePage .header {
-	background: url(../images/whitetop.gif) repeat-x 0 0;
+	background: #4561a1 url(../images/whitetop.gif) repeat-x 0 0;
 }
 .HomePage .main-nav a {
 	color: #333;
@@ -17,13 +18,18 @@ body {
 .home-orbit li img {
 	margin: 1px;
 }
+.home-orbit li iframe {
+	border: 10px solid white;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	margin: 1px;
+}
 .projects-home {
 	background-color: #fff;
 	padding: 3em 0;
 	& .subtitle {
 		margin-bottom: 2em;
 	}
-	& img {
+	& img, & iframe {
 		display: block;
 		width: 100%;
 		border: 5px solid white;
