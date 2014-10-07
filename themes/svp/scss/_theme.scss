@@ -6,11 +6,32 @@ body {
 	margin-top: 0;
 }
 .HomePage .header {
-	background: #4561a1 url(../images/whitetop.gif) repeat-x 0 0;
+	background: #4561a1 url(../images/diamonds.png);
+	padding-bottom: 10px;
+	@media #{$large-up} {
+		background: #4561a1 url(../images/whitetop.gif) repeat-x 0 0;
+		background: url(../images/diamonds.png), linear-gradient(to bottom,  #ffffff 42%,#4561a1 42%);
+	}
 }
-.HomePage .main-nav a {
+.main-nav {
+	& a {
+		@media #{$large-up} {
+			margin: 0 1px;
+		}
+	}
+}
+.HomePage .main-nav li a {
 	color: #333;
 	text-shadow: none;
+	@media #{$large-up} {
+		padding: 5px 10px;
+	}
+	@media (min-width: 870px) {
+		padding: 5px 10px;
+	}
+	@media #{$xlarge-up} {
+		padding: 5px 23px;
+	}
 }
 .home-quicklinks .quicklinks-title span {
 	color: #ddd;
@@ -47,10 +68,14 @@ body {
 	text-align: center;
 	& p {
 		font-family: georgia, serif;
-		font-size: 1.225rem;
-		line-height: 180%;
+		font-size: 1.125rem;
+		line-height: 160%;
 		margin-top: 1em;
 		text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+		@media #{$large-up} {
+			font-size: 1.225rem;
+			line-height: 180%;
+		}
 	}
 }
 .board-list {

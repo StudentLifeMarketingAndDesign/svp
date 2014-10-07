@@ -3,7 +3,7 @@
 		<h1>$Title</h1>
 		$Content
 
-		<ul class="small-block-grid-2">
+		<ul class="small-block-grid-1 medium-block-grid-2">
 			<% loop $Children %>
 				<li>
 					<% if $EmbedCode %>
