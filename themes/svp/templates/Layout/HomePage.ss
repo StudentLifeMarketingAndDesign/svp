@@ -34,8 +34,7 @@
 <div class="mission">
 	<div class="row collapse">
 		<div class="small-11 small-centered columns">
-			<div class="">
-				<img src="{$Themedir}/images/consider-collab-create.png" alt="Consider Collaborate Create">
+			<div>
 				$Content
 			</div>
 		</div>
