@@ -185,12 +185,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonom/silverstripe-betternavigator.git",
-                "reference": "8fedcf0c21f8ee92de05b3e5ca3eca20550409c4"
+                "reference": "3b53e7b36ae4397a0c77630b525f6c5f6bf5edc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonom/silverstripe-betternavigator/zipball/8fedcf0c21f8ee92de05b3e5ca3eca20550409c4",
-                "reference": "8fedcf0c21f8ee92de05b3e5ca3eca20550409c4",
+                "url": "https://api.github.com/repos/jonom/silverstripe-betternavigator/zipball/3b53e7b36ae4397a0c77630b525f6c5f6bf5edc4",
+                "reference": "3b53e7b36ae4397a0c77630b525f6c5f6bf5edc4",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "navigator",
                 "silverstripe"
             ],
-            "time": "2014-10-03 19:01:32"
+            "time": "2014-10-08 16:37:13"
         },
         {
             "name": "md/ac-json-events",
@@ -257,12 +257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/cfo-project.git",
-                "reference": "bfe8ecc57afa654f606352f77db0a1a526e0a21b"
+                "reference": "cec3f1107898bea8c21ef7821bd521ec69198679"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/bfe8ecc57afa654f606352f77db0a1a526e0a21b",
-                "reference": "bfe8ecc57afa654f606352f77db0a1a526e0a21b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/cec3f1107898bea8c21ef7821bd521ec69198679",
+                "reference": "cec3f1107898bea8c21ef7821bd521ec69198679",
                 "shasum": ""
             },
             "require": {
@@ -298,7 +298,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/issues"
             },
-            "time": "2014-10-06 20:49:08"
+            "time": "2014-10-10 15:22:09"
         },
         {
             "name": "md/division-bar",
@@ -374,12 +374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "8b28a1d047aea632b7ce9c552f0e04c6a282816c"
+                "reference": "638b309b699950e943b3d2c65197c8e39e3fbf29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/8b28a1d047aea632b7ce9c552f0e04c6a282816c",
-                "reference": "8b28a1d047aea632b7ce9c552f0e04c6a282816c",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/638b309b699950e943b3d2c65197c8e39e3fbf29",
+                "reference": "638b309b699950e943b3d2c65197c8e39e3fbf29",
                 "shasum": ""
             },
             "require": {
@@ -407,7 +407,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2014-08-24 23:20:55"
+            "time": "2014-10-07 19:59:23"
         },
         {
             "name": "silverstripe/cms",
