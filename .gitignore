@@ -26,7 +26,7 @@ mathspamprotection/
 deploy-hulk.php
 deploy.php
 cfo-project/
-
+node_modules/
 focuspoint/
 
 ac-json-events/
