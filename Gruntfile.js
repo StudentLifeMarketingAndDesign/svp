@@ -12,7 +12,8 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          '<%=globalConfig.themeDir %>/css/app.css' : '<%=globalConfig.themeDir %>/scss/app.scss'
+          '<%=globalConfig.themeDir %>/css/app.css' : '<%=globalConfig.themeDir %>/scss/app.scss',
+          '<%=globalConfig.themeDir %>/css/editor.css' : '<%=globalConfig.themeDir %>/scss/editor.scss'
         },                  // Target
         options: {              // Target options
           style: 'compressed',
@@ -27,10 +28,7 @@ module.exports = function(grunt) {
     concat: {
       js:{
         src: [
-          'cfo-project/bower_components/modernizr/modernizr.js',
-          'cfo-project/bower_components/foundation/js/foundation.min.js',
-          'cfo-project/bower_components/FlexSlider/jquery.flexslider.js',
-          'division-bar/js/division-bar.js',
+          'cfo-project/build/build.src.js',
           '<%=globalConfig.themeDir %>/javascript/*.js'
         ],
         dest: '<%=globalConfig.themeDir %>/build/build.src.js'
@@ -50,20 +48,27 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['<%=globalConfig.themeDir %>/javascript/*.js', '<%=globalConfig.themeDir %>/javascript/**/*.js'],
+        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js', 'cfo-project/build/build.src.js'],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: true,
+          livereload: true
         }
       },
       css: {
         files: ['<%=globalConfig.themeDir %>/scss/*.scss',
                 '<%=globalConfig.themeDir %>/scss/**/*.scss',
-                '<%=globalConfig.themeDir %>/scss/**/**/*.scss'
+                '<%=globalConfig.themeDir %>/scss/**/**/*.scss',
+                'cfo-project/scss/*.scss',
+                'cfo-project/scss/**/*.scss',
+                'cfo-project/scss/**/**/*.scss'
+                //'cfo-project/css/app.css'
+
                 ],
         tasks: ['sass'],
         options: {
           spawn: true,
+          livereload: true
         }
       }
     },
