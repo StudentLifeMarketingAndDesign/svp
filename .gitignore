@@ -28,9 +28,11 @@ deploy.php
 cfo-project/
 node_modules/
 focuspoint/
-
 ac-json-events/
 cache/
 betternavigator/
-
-foundationforms/
+foundationforms
+gridfieldextensions
+segment-field
+tagfield
+lumberjack
