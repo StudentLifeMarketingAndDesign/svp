@@ -40,3 +40,6 @@ nocaptcha/
 reports/
 secureassets/
 siteconfig/
+activedirectory/
+multivaluefield/
+queuedjobs/
