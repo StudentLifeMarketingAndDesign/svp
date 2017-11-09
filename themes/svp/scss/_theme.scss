@@ -2,15 +2,15 @@ body {
 	background: #fff;
 }
 .header {
-	background: #4561a1 url(../images/diamonds.png);
+	background: #2d2d2d url(../images/diamonds.png);
 	margin-top: 0;
 }
 .HomePage .header {
-	background: #4561a1 url(../images/diamonds.png);
+	background: #2d2d2d url(../images/diamonds.png);
 	padding-bottom: 10px;
 	@media #{$large-up} {
-		background: #4561a1 url(../images/whitetop.gif) repeat-x 0 0;
-		background: url(../images/diamonds.png), linear-gradient(to bottom,  #ffffff 42%,#4561a1 42%);
+		background: #2d2d2d url(../images/whitetop.gif) repeat-x 0 0;
+		background: url(../images/diamonds.png), linear-gradient(to bottom,  #ffffff 42%,#2d2d2d 42%);
 	}
 }
 .main-nav {
@@ -62,7 +62,7 @@ body {
 	}
 }
 .mission {
-	background: #89c762 url(../images/diamonds.png);
+	background: #1573c2 url(../images/diamonds.png);
 	color: #fff;
 	padding: 3em 0;
 	text-align: center;
