@@ -341,12 +341,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "05d56d677343c27ebb997ce63e107e16b6acc746"
+                "reference": "3f51141b6f363295a04b0c4fffc378634f057bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/05d56d677343c27ebb997ce63e107e16b6acc746",
-                "reference": "05d56d677343c27ebb997ce63e107e16b6acc746",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/3f51141b6f363295a04b0c4fffc378634f057bf5",
+                "reference": "3f51141b6f363295a04b0c4fffc378634f057bf5",
                 "shasum": ""
             },
             "require": {
@@ -365,7 +365,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2018-09-10T21:07:49+00:00"
+            "time": "2019-12-18T20:14:48+00:00"
         },
         {
             "name": "md/cfo-project",
@@ -373,12 +373,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/cfo-project.git",
-                "reference": "1c3c7db35f4caf75580adb86b970a1aa5f88c3ec"
+                "reference": "c221016c20dd39c81f7ce9cd5415b3834bb9e006"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/1c3c7db35f4caf75580adb86b970a1aa5f88c3ec",
-                "reference": "1c3c7db35f4caf75580adb86b970a1aa5f88c3ec",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/c221016c20dd39c81f7ce9cd5415b3834bb9e006",
+                "reference": "c221016c20dd39c81f7ce9cd5415b3834bb9e006",
                 "shasum": ""
             },
             "require": {
@@ -419,7 +419,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/1.3.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/issues"
             },
-            "time": "2019-12-18T17:47:28+00:00"
+            "time": "2019-12-18T20:13:29+00:00"
         },
         {
             "name": "md/division-analytics",
