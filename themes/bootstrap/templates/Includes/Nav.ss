@@ -1,6 +1,6 @@
 <header role="banner">
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar--border navbar-expand-lg navbar-dark">
 
         <a class="navbar-brand d-lg-none" href="{$BaseUrl}" aria-label="{$SiteConfig.Title}">
             <img class="brand-image" src="$ThemeDir/dist/images/brand.svg" width="100" />
