@@ -3,6 +3,10 @@
     border-right: 10px solid $primary;
     background: rgba(#000, 0.8);
 
+    &__container {
+        margin-top: 3rem;
+    }
+
     &__container--push-down {
         margin-top: 40vh;
     }
