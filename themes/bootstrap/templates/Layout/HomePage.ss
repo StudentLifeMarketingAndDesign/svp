@@ -9,7 +9,7 @@
                 <div class="row align-items-center justify-content-center vh-100">
                     <div class="col-lg-auto">
                         <div class="pb-3">
-                            <nav class="navbar navbar-expand-lg navbar-dark">
+                            <nav class="navbar navbar-expand navbar-dark">
                                 <!-- Collapsible content -->
                                 <div class="navbar-collapse justify-content-center" id="SocialNav">
                                     <!-- Links -->
