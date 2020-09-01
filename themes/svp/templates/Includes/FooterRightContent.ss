@@ -1,1 +1,0 @@
-<p>Student Video Productions is an organization that provides students with a variety of filmmaking resources as well as a creative forum. We encourage our members to consider one another’s ideas, collaborate by utilizing the skills of the their peers, and create quality content.</p>

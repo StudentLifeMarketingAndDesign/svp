@@ -1,0 +1,10 @@
+.content {
+    border-left: 3px solid $secondary;
+    border-right: 10px solid $primary;
+    background: rgba(#000, 0.8);
+
+    &__container--push-down {
+        margin-top: 40vh;
+    }
+
+}

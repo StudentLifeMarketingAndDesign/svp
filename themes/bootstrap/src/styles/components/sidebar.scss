@@ -1,0 +1,19 @@
+.sidenav{
+    background: #111;
+    color: white;
+
+    &__link{
+        color: white;
+        border-color: #333;
+        &:hover{
+            color: #eee;
+        }
+
+        &--current{
+            background-color: #222;
+        }
+    }
+}
+.sidenav__title{
+    background: $secondary;
+}
