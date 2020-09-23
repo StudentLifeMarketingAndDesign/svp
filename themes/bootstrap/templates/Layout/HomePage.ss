@@ -6,7 +6,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-auto">
 
-                <div class="row align-items-center justify-content-center vh-100">
+                <div class="row align-items-center justify-content-center" style="min-height: 100vh;">
                     <div class="col-lg-auto">
                         <div class="pb-3">
                             <nav class="navbar navbar-expand navbar-dark">
@@ -15,8 +15,8 @@
                                     <!-- Links -->
                                     <ul class="navbar-nav text-uppercase">
                                         <li class="nav-item mr-3 link nav-item">
-                                            <a class="nav-link nav-link--large" href="$Link"><i class="fab fa-youtube"></i>
-                                            YouTube</a>
+                                            <a class="btn btn-light" href="$SiteConfig.YouTubeLink" target="_blank"><i style="color: red;" class="fab fa-youtube"></i>
+                                            SVP on YouTube</a>
                                         </li>
                                         <li class="nav-item mr-3 link nav-item">
                                             <a class="nav-link nav-link--large" href="$Link"><i class="fab fa-facebook"></i>

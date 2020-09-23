@@ -6,6 +6,7 @@
 -------------------------------------------*/
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
+
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot";
@@ -70,5 +71,6 @@
 @import "components/header";
 @import "components/content";
 @import "components/bg-container";
+@import "components/buttons";
 @import "./components/sidebar";
 @import "layouts/homepage";

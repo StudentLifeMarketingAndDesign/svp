@@ -21,8 +21,9 @@
                 </li>
 
                 <% end_loop %>
-
-
+                <li class="nav-item mr-4  <% if isSection %>active<% end_if %>">
+                    <a href="{$SiteConfig.YouTubeLink}" target="_blank" class="br-0 btn btn-dark btn-red text-uppercase">SVP on YouTube <i class="fab fa-youtube" style="color: red;" aria-hidden="true"></i></a>
+                </li>
             </ul>
         </div>
         <!-- Collapsible content -->
