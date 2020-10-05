@@ -15,7 +15,7 @@
                                     <!-- Links -->
                                     <ul class="navbar-nav text-uppercase">
                                         <li class="nav-item mr-3 link nav-item">
-                                            <a class="btn btn-light" href="$SiteConfig.YouTubeLink" target="_blank"><i style="color: red;" class="fab fa-youtube"></i>
+                                            <a class="btn btn-dark btn-red" href="$SiteConfig.YouTubeLink" target="_blank"><i style="" class="fab fa-youtube"></i>
                                             SVP on YouTube</a>
                                         </li>
                                         <li class="nav-item mr-3 link nav-item">
