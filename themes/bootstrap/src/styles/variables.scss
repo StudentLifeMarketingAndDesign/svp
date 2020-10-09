@@ -5,7 +5,7 @@
 
 // Color system
 $gold: #ffcd00;
-$highlight: $gold;
+$highlight: #ef0000;
 $white: #fff;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
@@ -81,6 +81,9 @@ $spacers: (6: ($spacer * 4.5),
 // Cards
 $card-border-radius: 2px;
 $card-border-color: darken($highlight, 5%);
+
+$card-bg: #222;
+$card-color: white;
 
 
 $navbar-dark-color: $white;
