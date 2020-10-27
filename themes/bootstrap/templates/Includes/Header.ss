@@ -2,7 +2,7 @@
     <div class="container-fluid">
 
         <div class="row justify-content-center">
-            <div class="col-lg-8 content-container title__container">
+            <div class="col-lg-8 content-container title__container my-3">
                 <div class="header-graphic  d-none d-lg-block ">
                     <a href="{$BaseUrl}" class="d-block pt-4 pb-4">
                         <img class="header-graphic__img" src="$ThemeDir/dist/images/brand-full.svg" alt="Student Video Productions" />

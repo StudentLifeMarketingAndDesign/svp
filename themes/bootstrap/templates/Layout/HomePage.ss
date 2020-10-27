@@ -19,11 +19,11 @@
                                             SVP on YouTube</a>
                                         </li>
                                         <li class="nav-item mr-3 link nav-item">
-                                            <a class="nav-link nav-link--large" href="$Link"><i class="fab fa-facebook"></i>
+                                            <a class="nav-link nav-link--large" href="$SiteConfig.InstagramLink"><i class="fab fa-facebook"></i>
                                             Instagram</a>
                                         </li>
                                         <li class="nav-item mr-3 link nav-item">
-                                            <a class="nav-link nav-link--large" href="$Link"><i class="fab fa-facebook"></i>
+                                            <a class="nav-link nav-link--large" href="$SiteConfig.FacebookLink"><i class="fab fa-facebook"></i>
                                             Facebook</a>
                                         </li>
                                     </ul>
@@ -59,3 +59,20 @@
     <% if $BackgroundImage %>
 </div>
 <% end_if %>
+<% include SocialMedia %>
+
+
+<section class="py-5">
+    <div class="container-xl">
+        <h2 class="h1 text-center display-3 mb-5">Meet Our Members</h2>
+        <div class="stafflist">
+            <ul class="stafflist__list list-unstyled">
+                <% loop RandomStaffMembers(4) %>
+                    <% include StaffPageListItem %>
+                <% end_loop %>
+            </ul>
+            <p class="text-center"><a href="about/" class="text-center btn btn-primary">View all members</a></p>
+
+        </div>
+    </div>
+</section>
