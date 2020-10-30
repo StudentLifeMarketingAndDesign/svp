@@ -2,10 +2,8 @@
     <div class="container-xl">
         <div class="row d-flex align-items-center">
             <div class="col-sm-8 col-md-7">
-                <h2 class="h1 display-3">About SVP</h2>
-                <% with Page("about") %>
-                    $Content
-                <% end_with %>
+                <h2 class="h1 display-3">SVP on Social Media</h2>
+
             </div>
 
                 <div class="col-sm-4 offset-md-1">

@@ -57,3 +57,4 @@
     <% if $BackgroundImage %>
 </div>
 <% end_if %>
+<% include SocialMedia %>
