@@ -5,11 +5,13 @@
     <% include Header %>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-lg-9 col-xl-8 mb-3 content__container <% if $BackgroundImage %>content__container--push-down<% end_if %>" role="main">
+            <div class="col-lg-12 col-xl-10 mb-3 content__container" role="main">
                 <article>
-                    <div class="p-lg-5">
-                        <h1 class="text-uppercase pt-3 pb-3">$Title</h1>
-                <% if $Photo %>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+                            <div class="p-lg-5">
+                            <h1 class="text-uppercase content__page-header pt-3 pb-3">$Title</h1>
+             <% if $Photo %>
                     <!-- 0 equals square, 1 equals portrait, and 2 equals landscape -->
                     <% if $Photo.Orientation == 0 || $Photo.Orientation == 1 %>
                         <img src="$Photo.ScaleMaxWidth(400).URL" alt="$Title" role="presentation" class="float-md-right mb-3 ml-md-3 img-thumbnail img-fluid rounded-0">
@@ -44,14 +46,17 @@
                         </a></li>
                     <% end_if %>
                 </ul>
-                $Content
-               $Form
-                $PageComments
+                            </div>
+                        </div>
+                    </div>
 
-                </div>
                 </article>
-
+                $Form
+                $PageComments
             </div>
+            <%--         <% if $Menu(2) || $SideBarView.Widgets %>
+            <% include SideBar %>
+            <% end_if %> --%>
         </div>
     </div>
     <% if $BackgroundImage %>
