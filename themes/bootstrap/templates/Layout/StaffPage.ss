@@ -46,18 +46,15 @@
                         </a></li>
                     <% end_if %>
                 </ul>
+                $Content
+                $Form
+                $PageComments
                             </div>
                         </div>
                     </div>
 
                 </article>
-                $Content
-                $Form
-                $PageComments
             </div>
-            <%--         <% if $Menu(2) || $SideBarView.Widgets %>
-            <% include SideBar %>
-            <% end_if %> --%>
         </div>
     </div>
     <% if $BackgroundImage %>
