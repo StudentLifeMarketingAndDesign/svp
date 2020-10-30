@@ -10,7 +10,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-9">
                             <div class="p-lg-5">
-                            <h1 class="text-uppercase pt-3 pb-3">$Title</h1>
+                            <h1 class="text-uppercase content__page-header pt-3 pb-3">$Title</h1>
                             $Content
                             </div>
                         </div>

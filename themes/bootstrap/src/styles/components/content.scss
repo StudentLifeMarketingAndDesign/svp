@@ -1,16 +1,29 @@
 .content {
-    // border-left: 3px solid $secondary;
-    // border-right: 10px solid $primary;
-    background: rgba(#000, 0.8);
-
-
 
     &__container {
-        //margin-top: 3rem;
+        margin-top: 3rem;
+        border: 2px solid white;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: rgba(#000, 0.3);
+        backdrop-filter: blur(5px);
+
+        @include media-breakpoint-up(lg) {
+            border: 4px solid white;
+        }
     }
 
     &__container--push-down {
         margin-top: 10vh;
+    }
+
+    &__page-header {
+
+        @include media-breakpoint-up(lg) {
+            font-size: 4rem;
+        }
+
+
     }
 
 }
