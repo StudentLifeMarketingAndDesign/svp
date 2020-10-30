@@ -51,6 +51,7 @@
                     </div>
 
                 </article>
+                $Content
                 $Form
                 $PageComments
             </div>
