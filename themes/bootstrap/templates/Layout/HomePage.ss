@@ -15,15 +15,15 @@
                                     <!-- Links -->
                                     <ul class="navbar-nav text-uppercase">
                                         <li class="nav-item mr-3 link nav-item">
-                                            <a class="btn btn-dark btn-red" href="$SiteConfig.YouTubeLink" target="_blank"><i style="" class="fab fa-youtube"></i>
+                                            <a class="btn btn-dark btn-red" href="$SiteConfig.YouTubeLink" target="_blank" rel="noopener"><i style="" class="fab fa-youtube"></i>
                                             SVP on YouTube</a>
                                         </li>
                                         <li class="nav-item mr-3 link nav-item">
-                                            <a class="nav-link nav-link--large" href="$SiteConfig.InstagramLink"><i class="fab fa-facebook"></i>
+                                            <a class="nav-link nav-link--large" href="$SiteConfig.InstagramLink" target="_blank" rel="noopener"><i class="fab fa-facebook"></i>
                                             Instagram</a>
                                         </li>
                                         <li class="nav-item mr-3 link nav-item">
-                                            <a class="nav-link nav-link--large" href="$SiteConfig.FacebookLink"><i class="fab fa-facebook"></i>
+                                            <a class="nav-link nav-link--large" href="$SiteConfig.FacebookLink" target="_blank" rel="noopener"><i class="fab fa-facebook"></i>
                                             Facebook</a>
                                         </li>
                                     </ul>

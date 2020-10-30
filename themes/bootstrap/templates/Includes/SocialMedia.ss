@@ -5,16 +5,7 @@
                 <h2 class="h1 display-3">About SVP</h2>
                 <% with Page("about") %>
                     $Content
-                    <p><a class="btn btn-large btn-primary" href="$Link">View our members</a></p>
                 <% end_with %>
-                <h3>Quick Links:</h3>
-                <div class="btn-group" role="group" aria-label="Basic example">
-
-                      <a class="btn btn-outline-secondary" href="equipment/">Equipment Rental</a>
-                      <a class="btn btn-outline-secondary" href="equipment/">Calendar</a>
-                      <a class="btn btn-outline-secondary" href="equipment/">General Information</a>
-                </div>
-
             </div>
 
                 <div class="col-sm-4 offset-md-1">
