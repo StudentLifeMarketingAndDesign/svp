@@ -9,7 +9,7 @@ namespace {
 
 		private static $has_one = [];
 
-		private static $icon_class = 'font-icon-p-calendar';
+		private static $icon_class = 'font-icon-calendar';
 
 		public function getCMSFields() {
 			$fields = parent::getCMSFields();
