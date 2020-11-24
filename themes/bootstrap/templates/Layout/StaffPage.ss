@@ -60,4 +60,5 @@
     <% if $BackgroundImage %>
 </div>
 <% end_if %>
+<% include YouTubeFeed %>
 <% include SocialMedia %>
