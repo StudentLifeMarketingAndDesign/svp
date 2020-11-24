@@ -1,1 +1,1 @@
-{"version":3,"sources":["svp-snapwidget-youtube.scss"],"names":[],"mappings":"AAAA,oFACI,UAAY","file":"svp-snapwidget-youtube.css","sourcesContent":[".media-grid .media-list-item .media-image-wrapper .media-board-info .profile-name a {\n    color: white;\n}\n"]}
+{"version":3,"sources":["svp-snapwidget-youtube.scss"],"names":[],"mappings":"AAAA,oFACI,oBAAuB","file":"svp-snapwidget-youtube.css","sourcesContent":[".media-grid .media-list-item .media-image-wrapper .media-board-info .profile-name a {\n    color: white !important;\n}\n"]}
