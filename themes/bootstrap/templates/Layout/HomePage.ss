@@ -59,7 +59,7 @@
     <% if $BackgroundImage %>
 </div>
 <% end_if %>
-<% include YouTubeFeed %>
+
 <section class="section-dark text-white py-3 py-sm-6">
     <div class="container-xl">
         <div class="row d-flex align-items-center">
@@ -100,3 +100,4 @@
         </div>
     </div>
 </section>
+<% include YouTubeFeed %>
