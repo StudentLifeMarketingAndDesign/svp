@@ -5,4 +5,5 @@ SilverStripe\View\SSViewer:
   themes:
     - 'bootstrap'
     - 'bootstrap-project'
+    - 'silverstripe-gallery'
     - '$default'

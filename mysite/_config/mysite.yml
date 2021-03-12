@@ -3,3 +3,7 @@ Name: myproject
 ---
 SilverStripe\Core\Manifest\ModuleManifest:
   project: mysite
+ilateral\SilverStripe\Gallery\Model\GalleryPage:
+  icon: "_resources/vendor/i-lateral/silverstripe-gallery/client/dist/images/gallery.png"
+ilateral\SilverStripe\Gallery\Model\GalleryHub:
+  icon: "_resources/vendor/i-lateral/silverstripe-gallery/client/dist/images/gallery-hub.png"
