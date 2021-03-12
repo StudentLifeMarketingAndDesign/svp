@@ -30,6 +30,9 @@
                         <% loop $Images.Sort('RAND()') %>
                             <div class="card border-0 mb-4">
                                 <img class="card-img-top lazyload" data-aspectratio="$Ratio" data-src="$ScaleWidth(700).URL" />
+                            <% if $Top.ShowImageTitles %>
+                                <figcaption>$Title</figcaption>
+                            <% end_if %>
                             </div>
                         <% end_loop %>
                     </div>
@@ -38,6 +41,9 @@
                         <% loop $Images.Sort('RAND()') %>
                             <div class="col-sm-12 col-md-6 mb-4">
                                 <img class="d-block w-100 lazyload" data-aspectratio="$Ratio" data-src="$Pad(700,700,000).URL" />
+                                <% if $Top.ShowImageTitles %>
+                                    <figcaption>$Title</figcaption>
+                                <% end_if %>
                             </div>
                         <% end_loop %>
                     </div>
@@ -46,6 +52,9 @@
                         <% loop $Images.Sort('RAND()') %>
                             <div class="col-sm-12 col-md-6 mb-4">
                                 <img class="d-block w-100 lazyload" data-aspectratio="$Ratio" data-src="$Pad(700,700,000).URL" />
+                                <% if $Top.ShowImageTitles %>
+                                    <figcaption>$Title</figcaption>
+                                <% end_if %>
                             </div>
                         <% end_loop %>
                     </div>
@@ -54,6 +63,9 @@
                         <% loop $Images.Sort('RAND()') %>
                             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                                 <img class="d-block w-100 lazyload" data-aspectratio="$Ratio" data-src="$Pad(700,700,000).URL" />
+                                <% if $Top.ShowImageTitles %>
+                                    <figcaption>$Title</figcaption>
+                                <% end_if %>
                             </div>
                         <% end_loop %>
                     </div>
